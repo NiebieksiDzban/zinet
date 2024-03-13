@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bidding</title>
+    <link rel="stylesheet" href="styles/styles.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div class="licytacja">
+            <h1 class="licytacja-h1">LICYTACJA</h1>
+            <div class="licytacja-wartosci">
+                <div class="l1" id="licytowanie-druz1"></div>
+                <div class="l2" id="licytowanie-druz2"></div>
+                <div class="l3" id="licytowanie-druz3"></div>
+            </div>
+        </div>
+        <div class="pula">
+            <h1 class="pula-h1">PULA</h1>
+            <div class="pula-wartosci" id="pwartosci"></div>
+        </div>
+        <div class="stan-konta">
+            <h1 class="stan-konta-h1">STAN KONTA</h1>
+            <div class="stan-konta-wartosci">
+                <div class="s1" id="stan-druz1"></div>
+                <div class="s2" id="stan-druz2"></div>
+                <div class="s3" id="stan-druz3"></div>
+        </div>
+    </div>
+    <script src="..\twitchbot\node_modules\socket.io\client-dist\socket.io.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
+</html>

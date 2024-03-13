@@ -1,0 +1,144 @@
+body {
+    overflow-x:hidden; 
+    overflow-y:hidden;
+    background-color: white;
+}
+.main {
+    margin-top: -10px;
+    margin-left: -10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /**background-image: url("image.png");**/
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 745px;
+    height: 172px;
+    border: 1px solid transparent;
+}
+.licytacja {
+    background-color: black;
+    width: 558px;
+    height: 25px;
+    float:left;
+}
+.licytacja-h1 {
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 12px;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+.licytacja-wartosci {
+    margin-top: -1px;
+    width: 100%;
+    height: 59px;
+    float:left;
+    font-family: "Raleway Dots", sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    font-style: normal;
+    overflow: hidden;
+}
+.l1 {
+    color: white;
+    background-color: blue;
+    width: 33.33%;
+    height: 100%;
+    float:left;
+    
+}
+.l2 {
+    color: white;
+    background-color: rgb(0, 226, 0);
+    width: 33.33%;
+    height: 100%;
+    float:left;
+}
+.l3 {
+    color: white;
+    background-color: rgb(255, 208, 0);
+    width: 33.33%;
+    height: 100%;
+    float:left;
+}
+.pula {
+    background-color: black;
+    width: 187px;
+    height: 25px;
+    float:left;
+
+}
+.pula-h1 {
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 12px;
+    margin: 0;
+    margin-left: 15px;
+    padding: 0;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+.pula-wartosci {
+    color: white;
+    margin-top: -1px;
+    margin-left: -1px;
+    width: 101%;
+    height: 59px;
+    float:left;
+    overflow: hidden;
+    background-color: grey;
+    font-family: "Raleway Dots", sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    font-style: normal;
+}
+.stan-konta {
+    background-color: black;
+    width: 558px;
+    height: 30px;
+    margin-top: 84px;
+}
+.stan-konta-h1 {
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 12px;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+.stan-konta-wartosci {
+    margin-top: 3px;
+    width: 100%;
+    height: 59px;
+    float:left;
+    overflow: hidden;
+    font-family: "Raleway Dots", sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    font-style: normal;
+}
+.s1 {
+    color: white;
+    background-color: blue;
+    width: 33.33%;
+    height: 100%;
+    float:left;
+}
+.s2 {
+    color: white;
+    background-color: rgb(0, 226, 0);
+    width: 33.33%;
+    height: 100%;
+    float:left;
+}
+.s3 {
+    color: white;
+    background-color: rgb(255, 208, 0);
+    width: 33.33%;
+    height: 100%;
+    float:left;
+}
